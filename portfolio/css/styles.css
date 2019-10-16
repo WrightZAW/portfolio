@@ -1,168 +1,143 @@
-my styles.css body {
-    text-align: center;
-    font-size: 19px;
-    font-family: Arial, Helvetica, san-serif;
-    font-size: 49px;
-    margin: 1px;
-    background-color: grey;
-    height: 10%;
-
-    /* Style the navigation menu */
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
-
-    /* Navigation links */
-    /* Style the navigation menu */
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
-
-    /* Navigation links */
-    .navbar a {
-        float: left;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-        width: 25%;
-        /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-        text-align: center;
-        /* If you want the text to be centered */
-    }
-
-    /* Add a background color on mouse-over */
-    .navbar a:hover {
-        background-color: #000;
-    }
-
-    /* Style the current/active link */
-    .navbar a:active {
-        background-color: #4CAF50;
-    }
-
-    #bannerimg {
-        width: 100%;
-        height: auto;
-    }
-
+body{
+background-color: azure
 }
-
 /* Style the navigation menu */
 .navbar {
-    width: 100vw;
-    background-color: black;
-    overflow: auto;
-    margin: 0;
-    padding: 0;
-    border: 0;
+width: 100%;
+background-color: #555;
+overflow: auto;
 }
-
+/* Navigation links */
+/* Style the navigation menu */
+.navbar {
+width: 100%;
+background-color: #555;
+overflow: auto;
+}
 /* Navigation links */
 .navbar a {
-    float: left;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-    width: 16.6%;
-    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center;
+float: left;
+padding-top: 12px;
+padding-bottom: 12px;
+color: white;
+text-decoration: none;
+font-size: 17px;
+width: 25%;
+/* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+text-align: center;
+/* If you want the text to be centered */
 }
-
 /* Add a background color on mouse-over */
 .navbar a:hover {
-    background-color: red;
+background-color: #000;
 }
-
 /* Style the current/active link */
 .navbar a:active {
-    background-color: #4CAF50;
+background-color: #4CAF50;
 }
-
 #bannerimg {
-    width: 100vw;
+width: 100%;
+height: auto;
 }
-
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 24pt;
-    color: yellow;
+font-family: "Helvetica", "Arial", sans-serif;
+font-size: 24pt;
+color: yellow;
 }
-
 li {
-    list-style-position: inside;
+list-style-position: inside;
 }
-
 .pic {
-    position: absolute;
-    width: 20%;
-    margin: 3rem;
-    top: 200px;
-    right: 50px;
-    padding: 10px;
-    border-width: 10px;
-    border-radius: 30px;
-    border-color: red;
-    border-style: solid;
-
+position: relative;
+width: 20%;
+margin: 3rem;
+top: -20px;
+right: -px;
+padding: 20px;
 }
-
 .box {
-    position: relative;
-    width: 50%;
-    margin: 1rem;
-    padding: 2rem;
-    color: #FFF;
-    font-size: .9rem;
-    font-weight: bold;
-    text-align: left;
-    border-width: 10px;
-    border-radius: 30px;
-    border-color: red;
-    border-style: solid;
-    background-color: #414141;
+position: relative;
+width: 50%;
+margin: 1rem;
+padding: 2rem;
+color: #FFF;
+font-size: .9rem;
+font-weight: bold;
+text-align: left;
+border-width: 10px;
+border-radius: 30px;
+border-color: #4CB1F7;
+border-style: solid;
+background-color: #414141;
+font-family: 'Be Vietnam', sans-serif;
 }
-
+.pbox {
+position: absolute;
+width: 50%;
+margin: 1rem;
+padding: 2rem;
+color: #FFF;
+font-size: .9rem;
+font-weight: bold;
+text-align: left;
+border-width: 10px;
+border-radius: 30px;
+border-color: #4CB1F7;
+border-style: dotted;
+background-color: #414141;
+font-family: 'Be Vietnam', sans-serif;
+top: 700px;
+left: 0px;
+}
+.pbox2 {
+position: relative;
+width: 50%;
+margin: 1rem;
+padding: 2rem;
+color: #FFF;
+font-size: .9rem;
+font-weight: bold;
+text-align: left;
+border-width: 10px;
+border-radius: 30px;
+border-color: #4CB1F7;
+border-style: dotted;
+background-color: #414141;
+font-family: 'Be Vietnam', sans-serif;
+}
 .yellow-box {
-    position: absolute;
-    width: 8%;
-    margin: 1rem;
-    padding: 1rem;
-    border-color: red;
-    background-color: yellow;
-    border-width: 6px;
-    border-radius: 5px;
-    border-style: ridge;
-    font-size: .9rem;
-    font-weight: bold;
-    text-align: left;
-    top: 620px;
-    left: 80px;
+position: absolute;
+width: 8%;
+margin: 1rem;
+padding: 1rem;
+border-color: red;
+background-color: yellow;
+border-width: 6px;
+border-radius: 5px;
+border-style: ridge;
+font-size: .9rem;
+font-weight: bold;
+text-align: left;
+top: 620px;
+left: 80px;
 }
-
 .footer {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    top: 890px;
-    right: 10px;
-    border: 6px solid #ffcc00;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+top: 890px;
+right: 10px;
+border: 6px solid #ffcc00;
+}
+iframe {
+height: 660px;
+width: 650px;
 }
 
-iframe {
-    height: 660px;
-    width: 650px;
-}
+ 
